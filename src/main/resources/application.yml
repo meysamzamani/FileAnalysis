@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: file_analysis
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+server:
+  port: 8080
+  compression:
+    enabled: true
+  error:
+    include-message: always
+com:
+  meysamzamani:
+    file_analysis:
+      config:
+        location: /files/
